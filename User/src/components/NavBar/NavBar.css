@@ -1,0 +1,145 @@
+.NavBar {
+    height: 60px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.LeftBar {
+    display: flex;
+    gap: 10px;
+}
+
+.LeftBar .Facebook_logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.LeftBar .Facebook_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.LeftBar .SearchBox {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    height: 45px;
+    background-color: rgba(214, 207, 207, 0.459);
+}
+
+.LeftBar .SearchBox svg{
+    height: 25px;
+    width: 25px;
+}
+.SearchBox input {
+    width: 210px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+}
+
+
+/* CenterBar */
+.CenterBar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+/* RigthBar */
+.RigthBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.RigthBar .CircleBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgba(214, 209, 209, 0.774);
+}
+
+.CircleBox svg path:hover {
+    fill: black;
+    transition: 0.5s;
+}
+
+.CircleBox svg path {
+    fill: rgba(15, 15, 15, 0.767);
+}
+
+.CircleBox img {
+    width: 100%;
+    height: 100%;
+    
+    /* color: rgb(31, 31, 255); */
+}
+
+
+/* Small lapScreen */
+@media (max-width: 1024px) {
+    .SearchBox input {
+        display: none;
+    }
+}
+
+/* Mobile Screen */
+
+@media (max-width: 576px) {
+    .CenterBar {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        top: 100%;
+        border-top:  1px solid gainsboro;
+        border-bottom:  1px solid gainsboro;
+        left: 0;
+    }
+    .LeftBar .Facebook_logo{
+        width: 35px;
+        height: 35px;
+    }
+    .LeftBar .SearchBox{
+        height: 40px;
+        width: 30px;
+        padding: none;
+    }
+    .RigthBar .CircleBox{
+        height: 35px;
+        width: 35px;
+    }
+}
+.PopCard{
+    position: absolute;
+    top: 100%;
+    display: none;
+    width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 2;
+    padding: 10px;
+}

@@ -1,0 +1,147 @@
+.Home .PostsBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    
+height: 100vh;
+overflow-y: scroll;
+}
+
+.Home .Contacts {
+    padding-left: 20px;
+    padding-top: 65px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.MyMind {
+    background-color: white;
+    width: 100%;
+    min-height: 70px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.MyMind .ProfileImage {
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blueviolet;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.WhatOnYouMain {
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: rgb(201, 213, 248);
+    border-radius: 30px;
+}
+
+.MyMind .IconBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    min-width: 45px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.MyMind .IconBox:hover {
+    transition: 0.4s;
+    background-color: rgba(223, 219, 219, 0.767);
+}
+
+.StatusBar{
+    margin-top: 20px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    gap: 10px;
+}
+
+.leftBar{
+    padding-top: 65px;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+.leftBar .muneItem:hover{
+transition: 0.3s;
+    background-color: gainsboro;
+}
+
+.leftBar .muneItem{
+    transition: 0.3s;
+    border-radius: 5px 10px;
+    align-items: center;
+    font-size: 18px;
+font-weight: 400;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+.Contacts .muneItem{
+    transition: 0.3s;
+    border-radius: 5px 10px;
+    align-items: center;
+    font-size: 18px;
+font-weight: 400;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+.muneItem .IconCircle{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    min-width: 35px;
+    max-width: 35px;
+    border-radius: 50%;
+    background-color: black;
+}
+@media (max-width: 576px) { 
+    .MyMind{
+        gap: 0;
+    }
+    .MyMind .ProfileImage{
+        margin-right: 5px;
+    }
+    .WhatOnYouMain{
+        font-size: 16px;
+    }
+    .leftBar{
+        display: none;
+    }
+    .Home .PostsBox{
+        padding-top: 65px;
+    }
+ }

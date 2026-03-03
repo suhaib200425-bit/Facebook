@@ -1,0 +1,112 @@
+.AllProfile{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.AllProfile .PersonalDetails{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.BirthdayDate{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    gap: 20px;
+    height: 40px;
+    background-color: rgba(206, 198, 198, 0.692);
+}
+.Mymind{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.Mymind .Headder{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Headder .ProfileImage{
+    max-width: 50px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Headder input{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgba(175, 184, 181, 0.795);
+    border: none;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.Headder input:focus{
+    border: none;
+    outline: none;
+}
+.Icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Icons:hover{
+
+    background-color: gainsboro;
+    transition: 0.3s;
+}
+.AllProfile .Friends{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+.Friends .Hed{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Hed strong:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Hed strong{
+    font-size: 21px;
+}
+
+.Hed p{
+    color: blue;
+    padding: 0;
+    margin: 0;
+}
+ 
+.Friends .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 column */
+  gap: 10px;
+  /* padding: 20px; */
+}
+
+.grid-item {
+
+  /* padding: 40px; */
+  text-align: center;
+  border-radius: 10px;
+  height: 120px;
+}
+.grid-item .image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+    height: 100px;
+    width: 100%;
+}

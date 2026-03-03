@@ -1,0 +1,105 @@
+.PostCard{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.PostCard .Profile{
+    display: flex;
+    justify-content: space-between;
+}
+.Profile .details{
+    display: flex;
+    gap: 10px;
+
+}
+.Profile .icon{
+    display: flex;
+    gap: 10px;
+    
+}
+.details .ProfileImage{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blueviolet;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details .ProfileTitle h5{
+    margin: 0;
+    font-size: 18px;
+}
+
+.details .ProfileTitle p{
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.PostCard .Content{
+    width: 100%;
+    font-size: 17px;
+}
+.PostCard .Media{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.PostCard .Media img{
+    /* height: 300px; */
+    width: 100%;
+    border-radius: 10px;
+}
+.LikeComment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 15px;
+}
+
+.LikeComment div{
+    display: flex;
+    gap: 5px;
+}
+.LikeComment div .Like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(55, 52, 236);
+}
+.MyInteractions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MyInteractions div{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.MyInteractions div:hover{
+    background-color: rgba(106, 109, 106, 0.315);
+    transition: 0.3s;
+}
+
+.PostContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 20px;
+    font-size: 20px !important;
+    color: white;
+}

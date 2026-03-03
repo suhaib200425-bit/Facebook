@@ -1,0 +1,6 @@
+.EditProfile{
+    height: 100Vh;
+    overflow-y: scroll;
+    padding-top: 60px;
+    scrollbar-width: none;
+}

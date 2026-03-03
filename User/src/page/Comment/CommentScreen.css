@@ -1,0 +1,96 @@
+.CommentScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(2, 2, 2, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.CommentScreen .Box {
+    height: 80vh;
+    width: 75%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.Box .header {
+    height: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Box .displayCommentAndpost{
+    overflow-y: scroll;
+    height:75%;
+    margin: 0px;
+    z-index: 2;
+    /* background-color: rgba(126, 121, 121, 0.685); */
+}
+.displayCommentAndpost .post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.displayCommentAndpost .post .PostContent img{
+    width: 100%;
+    border-radius: 10px;
+}
+.displayCommentAndpost .commests{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.displayCommentAndpost .commests .comment{
+    display: flex;
+    gap: 5px;
+    /* margin-bottom: 5px; */
+}
+.comment .CommentUser{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.comment .UserComment{
+    padding: 10px 15px;
+    max-width: 400px;
+    background-color: rgba(168, 156, 156, 0.308);
+    border-radius: 10px;
+}
+.inputBox{
+    /* height: 15%; */
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+}
+.inputBox input{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    outline: none;
+    width: 100%;
+    background: transparent;
+}
+.inputBox .focus{
+    display: none;
+}
+
+.inputBox input:focus + .inputBox .unfocus{
+    display: none;
+}

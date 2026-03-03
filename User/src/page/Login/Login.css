@@ -1,0 +1,50 @@
+.Login{
+    min-height: 100vh;
+
+}
+.Login .leftbox{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yb/r/iwZfEquP1hm.png');
+}
+.Login .rigthbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.rigthbox .topbar{
+    margin-bottom: 50px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rigthbox .profile div{
+    display: flex;
+    font-size: 19px;
+    font-weight: 500;
+    gap: 10px;
+}
+.rigthbox .profile{
+    background-color: ghostwhite;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.profile .profileImage{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-floating input{
+    border-radius: 10px;
+}

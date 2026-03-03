@@ -1,0 +1,106 @@
+.CreatePost{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.575);
+
+}
+.CreatePost .Card{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.Card .hed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+}
+.Card .hed h4{
+    width: 100%;
+
+}
+.Card .profilebar{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    min-height:30px ;
+    border-radius: 10px;
+    width: 100%;
+}
+.profilebar .profileimage{
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Card input{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.Card input:focus{
+    border: none;
+    outline: none;
+}
+.bottompostmenu{
+    min-height: 40px;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottompostmenu .IconsBox{
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Card .postbtn{
+    background-color: rgb(58, 58, 241);
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    color: #ffffff;
+}
+.Card .Preview{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.Card .Preview img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Card .scroll{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+
+@media (max-width: 576px) { 
+    
+}

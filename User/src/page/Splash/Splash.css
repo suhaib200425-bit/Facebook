@@ -1,0 +1,11 @@
+.Splash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.Splash img{
+    width: 100px;
+}
